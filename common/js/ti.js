@@ -69,11 +69,7 @@ $("#globalfooter").html('<!-- Footer --> \
         <br><br><br> \
         <div class="container"> \
           <div class="row"> \
-            <div class="col-md-12"> \
-&copy; 2010 - 2017 tinitiate.com , All rights reserved. <br> \
-While using this site, you agree to have read and accepted our <a href="#" style="color:yellow;">Terms of Service</a> and <a href="#" style="color:yellow;">Privacy Policy</a>. <br> \
-            </div> \
-            <br><br><br><br> \
+<br><br> \
             <div class="col-md-12"> \
                 <div class="col-md-4"> \
                 <ul class="list-unstyled" style="color:white;"> \
@@ -86,6 +82,9 @@ While using this site, you agree to have read and accepted our <a href="#" style
                 </div> \
                 <div class="col-md-4"> \
                 SOCIAL MEDIA \
+                <div id="fb-root"></div> \
+                <div class="fb-like" data-href="https://www.facebook.com/Tinitiate/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>\
+                <script type="IN/FollowCompany" data-id="18027526" data-counter="top"></script> \
                 </div> \
                 <div class="col-md-4"> \
                 <ul class="list-unstyled" style="color:white;"> \
@@ -95,7 +94,11 @@ While using this site, you agree to have read and accepted our <a href="#" style
                 </ul> \
                 </div> \
             </div> \
-            <br><br> \
+            <div class="col-md-12"> \
+            &copy; 2010 - 2017 tinitiate.com , All rights reserved. <br> \
+            While using this site, you agree to have read and accepted our <a href="#" style="color:yellow;">Terms of Service</a> and <a href="#" style="color:yellow;">Privacy Policy</a>. <br> \
+            </div> \
+            <br><br><br><br> \
             <div class="col-md-12 text-right"> \
             <p>proudly built using <a href="https://github.com/tinitiate/TechnicalCMS"><span class="badge">Technical CMS</span></a></p> \
             </div> \
@@ -147,13 +150,25 @@ $("#googleanalytics").html("<script> \
 </script>");
 
 
+$("ad11").html(' \
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> \
+<!-- FooterAd --> \
+<ins class="adsbygoogle" \
+     style="display:inline-block;width:970px;height:90px" \
+     data-ad-client="ca-pub-1094859208796082" \
+     data-ad-slot="9693841050"></ins> \
+<script> \
+(adsbygoogle = window.adsbygoogle || []).push({}); \
+</script>');
+
+
 $("respad1").html(' \
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> \
+<!-- mob1_2017 --> \
 <ins class="adsbygoogle" \
-     style="display:block" \
+     style="display:inline-block;width:336px;height:280px" \
      data-ad-client="ca-pub-1094859208796082" \
-     data-ad-slot="3815951856" \
-     data-ad-format="auto"></ins> \
+     data-ad-slot="5089996659"></ins> \
 <script> \
 (adsbygoogle = window.adsbygoogle || []).push({}); \
 </script>');
@@ -161,12 +176,11 @@ $("respad1").html(' \
 
 $("respad2").html(' \
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> \
+<!-- mob2_2017 --> \
 <ins class="adsbygoogle" \
-     style="display:block" \
+     style="display:inline-block;width:320px;height:100px" \
      data-ad-client="ca-pub-1094859208796082" \
-     data-ad-slot="5292685054" \
-     data-ad-format="auto"></ins> \
+     data-ad-slot="6566729854"></ins> \
 <script> \
 (adsbygoogle = window.adsbygoogle || []).push({}); \
 </script>');
-
